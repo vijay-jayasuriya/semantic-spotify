@@ -1,0 +1,8 @@
+pyproject.toml
+src/semantic_spotify/__init__.py
+src/semantic_spotify.egg-info/PKG-INFO
+src/semantic_spotify.egg-info/SOURCES.txt
+src/semantic_spotify.egg-info/dependency_links.txt
+src/semantic_spotify.egg-info/requires.txt
+src/semantic_spotify.egg-info/top_level.txt
+src/semantic_spotify/data/__init__.py

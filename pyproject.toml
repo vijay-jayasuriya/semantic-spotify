@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "semantic-spotify"
+version = "0.1.0"
+description = "Semantic music representations using Spotify metadata, audio features, and playlist context."
+requires-python = ">=3.11"
+
+dependencies = [
+    "datasets",
+    "huggingface-hub",
+    "numpy",
+    "pandas",
+    "pyarrow",
+    "scikit-learn",
+    "matplotlib",
+    "jupyterlab",
+    "ipykernel",
+    "pyyaml",
+    "tqdm",
+]

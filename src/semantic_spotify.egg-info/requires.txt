@@ -1,0 +1,11 @@
+datasets
+huggingface-hub
+numpy
+pandas
+pyarrow
+scikit-learn
+matplotlib
+jupyterlab
+ipykernel
+pyyaml
+tqdm
