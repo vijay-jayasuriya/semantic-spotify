@@ -1,25 +1,38 @@
-# Python environment
+# Python
 .venv/
-
-# Python generated files
 __pycache__/
 *.py[cod]
+*.egg-info/
+.pytest_cache/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# macOS
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+
+# Data artifacts
+data/raw/
+data/interim/
+data/processed/
+*.duckdb
+*.duckdb.wal
+
+# Trained models and checkpoints
+/models/
+*.pt
+*.pth
+*.ckpt
+*.npy
+
+# Logs and temporary files
+logs/
+*.log
 .DS_Store
 
-# Local environment/secrets
-.env
-
-# Data
-data/raw/*
-data/interim/*
-data/processed/*
-
-# Keep empty data directories in Git
-!data/raw/.gitkeep
-!data/interim/.gitkeep
-!data/processed/.gitkeep
+# IDE
+.vscode/
+.idea/
